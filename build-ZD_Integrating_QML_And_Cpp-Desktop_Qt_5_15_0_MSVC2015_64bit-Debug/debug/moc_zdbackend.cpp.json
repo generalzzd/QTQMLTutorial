@@ -1,0 +1,46 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                }
+            ],
+            "className": "ZDBackEnd",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "name": "m_username",
+                    "notify": "userNameChanged",
+                    "read": "username",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setUsername"
+                }
+            ],
+            "qualifiedClassName": "ZDBackEnd",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "userNameChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "zdbackend.h",
+    "outputRevision": 67
+}
